@@ -1,0 +1,1 @@
+OpenShift-friendly Docker images
