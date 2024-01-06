@@ -1,4 +1,4 @@
-FROM actualbudget/actual-server:23.12.1
+FROM actualbudget/actual-server:24.1.0
 
 RUN for dir in /app; do \
         chgrp -R 0 $dir && chmod -R g=u $dir; \
