@@ -1,4 +1,4 @@
-FROM tautulli/tautulli:v2.13.4
+FROM tautulli/tautulli:v2.14.2
 
 RUN for dir in /config /app; do \
         chgrp -R 0 $dir && chmod -R g=u $dir; \
